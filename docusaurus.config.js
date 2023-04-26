@@ -19,7 +19,8 @@ const config = {
   url: 'https://scb-innovation-lab.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/saber-book/',
+  baseUrl: process.env.NODE_ENV === 'production' ? '/saber-book/' : '/',
+  // baseUrl: '/saber-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
