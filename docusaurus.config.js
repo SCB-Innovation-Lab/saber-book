@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SCB-Innovation-Lab/saber-book/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SCB-Innovation-Lab/saber-book/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,7 +67,7 @@ const config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'mainSidebar',
+          sidebarId: 'docs',
           position: 'left',
           label: 'Docs',
         },
@@ -81,73 +81,7 @@ const config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Learn',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Legal',
-          // Please do not remove the privacy and terms, it's a legal requirement.
-          items: [
-            {
-              label: 'Privacy',
-              href: 'https://opensource.fb.com/legal/privacy/',
-            },
-            {
-              label: 'Terms',
-              href: 'https://opensource.fb.com/legal/terms/',
-            },
-            {
-              label: 'Data Policy',
-              href: 'https://opensource.fb.com/legal/data-policy/',
-            },
-            {
-              label: 'Cookie Policy',
-              href: 'https://opensource.fb.com/legal/cookie-policy/',
-            },
-          ],
-        },
-      ],
+      links: [],
       logo: {
         alt: 'Saber Labs Logo',
         // This default includes a positive & negative version, allowing for
