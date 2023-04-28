@@ -29,7 +29,7 @@ module.exports = {
       label: 'Overview',
       items: ['overview/about-us', 'overview/our-services', 'overview/contact'],
     },
-    {
+    /* {
       type: 'category',
       label: 'Insights',
       items: [
@@ -38,13 +38,12 @@ module.exports = {
         'insights/cdbc-pov-and-multi-currency-gateway-solution',
         'insights/bnpl',
       ],
-    },
+    }, */
     {
       type: 'category',
       label: 'Our Projects',
       items: [
-        'our-projects/dex',
-        'our-projects/hedera',
+        'our-projects/dex-indexer',
         'our-projects/saber-flutter-ui',
         'our-projects/techx-badge',
       ],

@@ -1,7 +1,7 @@
 # TechX Badge
 
 <p align="center">
-  <img src="/img/docs/our-projects/techx-badge/cover.png" alt="cover image" />
+  <img src={require('../../static/img/docs/our-projects/techx-badge/cover.png').default} alt="Simplify architecture diagram" />
 </p>
 
 ## Executive Overview
@@ -18,13 +18,11 @@ With an inspiration from [Proof of Attendance Protocol (POAP)](https://poap.xyz/
 
 ## Our Solution
 
-A web application for sessions attendees with claim code to claim their NFT badges by connecting MetaMask crypto wallet, then the NFT is minted to the connected wallet address.
-
 <p align="center">
-  <img src="/img/docs/our-projects/techx-badge/article_techx_badge_diagram.png" alt="The diagram demonstrate an attendee claiming NFT badge" />
+  <img src={require('../../static/img/docs/our-projects/techx-badge/article_techx_badge_diagram.png').default} alt="The diagram demonstrate an attendee claiming NFT badge" />
 </p>
 
-The minted NFT badges use the ERC-721 token standard, therefore the [Tech X Badge NFT collection](https://opensea.io/collection/tech-x-badge) is available to view on NFT marketplace like [OpenSea](https://opensea.io/).
+A web application for sessions attendees with claim code to claim their NFT badges by connecting MetaMask crypto wallet, then the NFT is minted to the connected wallet address.
 
 ## Our Technology
 
@@ -34,11 +32,11 @@ The minted NFT badges use the ERC-721 token standard, therefore the [Tech X Badg
 4. **Blockchain network** – to leverage public blockchain network with low gas costs, the Polygon (MATIC) L2 is selected as the blockchain network
 
 <p align="center">
-  <img src="/img/docs/our-projects/techx-badge/article_techx_badge_architecture.png" alt="Simplify architecture diagram" />
+  <img src={require('../../static/img/docs/our-projects/techx-badge/article_techx_badge_diagram.png').default} alt="Simplify architecture diagram" />
 </p>
 
 ## Reference
 
-1. Reference Links Web frontend for viewing the Tech X Badge collection of a wallet address – https://xbadge.sslabs.sh/scan/0x22955665b90ebA0a0E45cA61d8ddBdAFa2a92BAd
-   - ![collection of techx badges](/img/docs/our-projects/techx-badge/image-20221125-110740.png)
+1. Reference Links Web frontend for viewing the Tech X Badge collection of a wallet address is https://xbadge.sslabs.sh/scan/0x22955665b90ebA0a0E45cA61d8ddBdAFa2a92BAd
+   - ![a preview collection of techx badges](/img/docs/our-projects/techx-badge/image-20221125-110740.png)
 2. Smart Contract of the deployed Tech X Badge (TXB) ERC- 1155 token on Polygon (MATIC) network – https://polygonscan.com/address/0xf4fcf605a10cb02b63791ab8a36689320d4b6deb
