@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksaber_book=self.webpackChunksaber_book||[]).push([[9872],{4250:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/saber-book/blog/tags/docusaurus","allTagsPath":"/saber-book/blog/tags","count":4}')}}]);
