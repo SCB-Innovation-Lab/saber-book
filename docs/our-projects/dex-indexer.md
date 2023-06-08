@@ -42,7 +42,7 @@ The captured data is primarily utilized to enhance the user experience and inter
 
 While several protocols, including The Graph, offer widely-used blockchain data indexing and APIs for Decentralized Applications (DApps), including Balancer, it is important to note that these protocols may not be universally available as data sources for all blockchain networks. Although some protocols may provide toolsets for running a personal node to index data on an EVM-compatible network, this process involves additional steps and complexities for setup and execution.
 
-![Screenshot 2566-06-07 at 14.09.50.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54c02aaf-580d-4f3e-bf83-41a49b58c596/Screenshot_2566-06-07_at_14.09.50.png)
+<img src="/static/img/Screenshot 2566-06-07 at 14.09.50.png" />
 
 In light of these considerations, we have made the decision to develop a small application using the Go programming language for our DEX Proof-of-Concept (PoC) based on Balancer DeFi V1. This application will primarily serve two key functionalities:
 
@@ -116,7 +116,8 @@ reward rate is set by the contract owner.
 ## Maths
 
 You'll find below the formula to compute rewards earned by a user from k to n seconds:
-  
+
+<img src="/static/img/image.png" />  
 </details>
 
 <details>
@@ -149,7 +150,7 @@ Next.js offers several key features that make it a preferred choice for building
 <details>
   <summary>Smart order router</summary>
   
-Smart Order Router, or SOR is an off-chain linear optimization of routing orders across pools for best price execution. It takes as input a desired amount of any token to be traded for another token, and returns a list of pools/amounts that should be traded such that the amount of returned tokens is maximized. The sum of the amounts to be traded with each pool equals the desired amount given as input.SOR exists in the Bronze release as a way to aggregate liquidity across all Balancer pools. Future releases of Balancer will accomplish this on-chain, and allow aggregate contract fillable liquidity.Liquidity aggregators are free to use the SOR npm package or create their own order routing across pools.
+**Smart Order Router**, or **SOR** is an off-chain linear optimization of routing orders across pools for best price execution. It takes as input a desired amount of any token to be traded for another token, and returns a list of pools/amounts that should be traded such that the amount of returned tokens is maximized. The sum of the amounts to be traded with each pool equals the desired amount given as input.SOR exists in the Bronze release as a way to aggregate liquidity across all Balancer pools. Future releases of Balancer will accomplish this on-chain, and allow aggregate contract fillable liquidity.Liquidity aggregators are free to use the SOR npm package or create their own order routing across pools.
 </details>
 
 ## Smart Contract Addresses
