@@ -154,7 +154,7 @@ Smart Order Router, or SOR is an off-chain linear optimization of routing orders
 
 ## Smart Contract Addresses
 
-Chain : Polygon Mumbai
+**CHAIN** : Polygon Mumbai
 
 **FACTORY_ADDRESS** : [0xa042b348D28b15AE1BDB3B7Aa3aE814057dc508A](https://mumbai.polygonscan.com/address/0xa042b348D28b15AE1BDB3B7Aa3aE814057dc508A)
 
