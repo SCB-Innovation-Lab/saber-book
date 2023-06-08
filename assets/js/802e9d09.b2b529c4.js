@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksaber_book=self.webpackChunksaber_book||[]).push([[770],{1840:e=>{e.exports=JSON.parse('{"permalink":"/saber-book/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
