@@ -19,7 +19,6 @@ The captured data is primarily utilized to enhance the user experience and inter
 While several protocols, including The Graph, offer widely-used blockchain data indexing and APIs for Decentralized Applications (DApps), including Balancer, it is important to note that these protocols may not be universally available as data sources for all blockchain networks. Although some protocols may provide toolsets for running a personal node to index data on an EVM-compatible network, this process involves additional steps and complexities for setup and execution.
 
 ![Image](/img/docs/our-projects/dex-indexer/Screenshot.png)
-<img src="/static/img/docs/our-projects/dex-indexer/Screenshot.png" />
 
 
 In light of these considerations, we have made the decision to develop a small application using the Go programming language for our DEX Proof-of-Concept (PoC) based on Balancer DeFi V1. This application will primarily serve two key functionalities:
