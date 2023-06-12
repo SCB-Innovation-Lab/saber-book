@@ -43,7 +43,6 @@ module.exports = {
       type: 'category',
       label: 'Our Projects',
       items: [
-        'our-projects/dex-indexer',
         'our-projects/saber-flutter-ui',
         'our-projects/techx-badge',
         {
