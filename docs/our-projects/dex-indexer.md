@@ -41,7 +41,7 @@ The captured data is primarily utilized to enhance the user experience and inter
 
 While several protocols, including The Graph, offer widely-used blockchain data indexing and APIs for Decentralized Applications (DApps), including Balancer, it is important to note that these protocols may not be universally available as data sources for all blockchain networks. Although some protocols may provide toolsets for running a personal node to index data on an EVM-compatible network, this process involves additional steps and complexities for setup and execution.
 
-![Image](./static/img/docs/our-projects/dex-indexer/image.png)
+![Image](/img/docs/our-projects/dex-indexer/Screenshot.png)
 <img src="/static/img/docs/our-projects/dex-indexer/Screenshot.png" />
 
 
@@ -113,7 +113,7 @@ reward rate is set by the contract owner.
 
 You'll find below the formula to compute rewards earned by a user from k to n seconds:
 
-![Image](./static/img/docs/our-projects/dex-indexer/image.png)
+![Image](/img/docs/our-projects/dex-indexer/image.png)
 <img src="/static/img/docs/our-projects/dex-indexer/image.png" />
 
 ## AMM
