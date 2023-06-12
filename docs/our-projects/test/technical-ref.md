@@ -13,7 +13,7 @@ reward rate is set by the contract owner.
 You'll find below the formula to compute rewards earned by a user from k to n seconds:
 
 ![Image](/img/docs/our-projects/dex-indexer/image.png)
-<img src="/static/img/docs/our-projects/dex-indexer/image.png" />
+Reference : https://github.com/Aboudoc/Synthetix-Staking-Rewards
 
 ## AMM
 
