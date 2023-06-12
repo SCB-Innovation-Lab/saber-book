@@ -158,3 +158,8 @@ Next.js offers several key features that make it a preferred choice for building
 **TWD** : [0x0Bd6F1D817fA4171F0c1f2ee106D33C224ADEeBA](https://mumbai.polygonscan.com/address/0x0Bd6F1D817fA4171F0c1f2ee106D33C224ADEeBA)
 
 **ZAR** : [0x42a6A7577e14011f7e65749c5B12115FB185c0A1](https://mumbai.polygonscan.com/address/0x42a6A7577e14011f7e65749c5B12115FB185c0A1)
+
+
+## User Manual
+
+https://purrfect-impulse-47a.notion.site/Inno-Dex-Docs-2a02ed1d689b427fb3df0eb563386653?pvs=4
