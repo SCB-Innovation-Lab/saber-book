@@ -50,7 +50,11 @@ module.exports = {
           type: 'category',
           label: 'Dex',
           items: [
-            'our-projects/test/dex'
+            'our-projects/test/overview',
+            'our-projects/test/components',
+            'our-projects/test/glossary',
+            'our-projects/test/technical-ref',
+            'our-projects/test/address'
           ],
         },
       ],
