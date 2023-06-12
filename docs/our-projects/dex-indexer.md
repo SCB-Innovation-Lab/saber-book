@@ -43,6 +43,8 @@ While several protocols, including The Graph, offer widely-used blockchain data 
 
 <img src="/static/img/docs/our-projects/dex-indexer/Screenshot 2566-06-07 at 14.09.50.png" />
 
+![Info](/static/img/docs/our-projects/dex-indexer/Screenshot 2566-06-07 at 14.09.50.png)
+
 In light of these considerations, we have made the decision to develop a small application using the Go programming language for our DEX Proof-of-Concept (PoC) based on Balancer DeFi V1. This application will primarily serve two key functionalities:
 
 1. Capturing data from smart contract events, processing it, and storing it in our database.
@@ -111,6 +113,7 @@ reward rate is set by the contract owner.
 
 You'll find below the formula to compute rewards earned by a user from k to n seconds:
 
+![Image](/static/img/docs/our-projects/dex-indexer/image.png)
 <img src="/static/img/docs/our-projects/dex-indexer/image.png" />
 
 ## AMM
