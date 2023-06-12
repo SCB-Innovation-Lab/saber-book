@@ -21,7 +21,7 @@ By separating the AMM curve logic and math from the core swapping functionality,
 
 All of the aggregate liquidity is then easily accessilbe for swappers, aggregators, and arbitraugers. The Balancer **[Vault](https://docs.balancer.fi/concepts/vault)** optimizes batching and path logic so that gas costs and capital requirements remain extremely low. Each individual pool and project built on top benefits from the global liquidity within Balancer that brings deep liquidity for base assets and opens up swap paths.
 
-# Components
+## Components
 
 ## Frontend
 
@@ -42,8 +42,6 @@ The captured data is primarily utilized to enhance the user experience and inter
 While several protocols, including The Graph, offer widely-used blockchain data indexing and APIs for Decentralized Applications (DApps), including Balancer, it is important to note that these protocols may not be universally available as data sources for all blockchain networks. Although some protocols may provide toolsets for running a personal node to index data on an EVM-compatible network, this process involves additional steps and complexities for setup and execution.
 
 ![Image](/img/docs/our-projects/dex-indexer/Screenshot.png)
-<img src="/static/img/docs/our-projects/dex-indexer/Screenshot.png" />
-
 
 In light of these considerations, we have made the decision to develop a small application using the Go programming language for our DEX Proof-of-Concept (PoC) based on Balancer DeFi V1. This application will primarily serve two key functionalities:
 
@@ -86,7 +84,7 @@ For further details and access to the source code repository of our smart contra
 
   `Exchange Proxy`
 
-# Glossary
+## Glossary
 
 **Core Pool**: A `BPool` contract object - this is the "base" pool that actually holds the tokens **Balance**: The total token balance of a pool. Does not refer to any user balance.
 
@@ -99,7 +97,7 @@ For further details and access to the source code repository of our smart contra
 **Smart Pool**: A contract that owns (i.e., is the **controller)**, \***\*of a** Core \***\*Pool**. Much more in Component section.
 
 
-# Technical Reference
+## Technical Reference
 
 ## Staking
 
@@ -114,7 +112,6 @@ reward rate is set by the contract owner.
 You'll find below the formula to compute rewards earned by a user from k to n seconds:
 
 ![Image](/img/docs/our-projects/dex-indexer/image.png)
-<img src="/static/img/docs/our-projects/dex-indexer/image.png" />
 
 ## AMM
 
@@ -140,7 +137,7 @@ Next.js offers several key features that make it a preferred choice for building
 
 **Smart Order Router**, or **SOR** is an off-chain linear optimization of routing orders across pools for best price execution. It takes as input a desired amount of any token to be traded for another token, and returns a list of pools/amounts that should be traded such that the amount of returned tokens is maximized. The sum of the amounts to be traded with each pool equals the desired amount given as input.SOR exists in the Bronze release as a way to aggregate liquidity across all Balancer pools. Future releases of Balancer will accomplish this on-chain, and allow aggregate contract fillable liquidity.Liquidity aggregators are free to use the SOR npm package or create their own order routing across pools.
 
-# Addresses
+## Addresses
 
 **CHAIN** : Polygon Mumbai
 
