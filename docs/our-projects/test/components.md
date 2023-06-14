@@ -1,5 +1,7 @@
 # Components
 
+![Image](/img/docs/our-projects/dex-indexer/flowmap.png)
+
 ## Frontend
 
 Frontend development for a decentralized exchange (DEX) using Next.js involves building the user interface (UI) and user experience (UX) components for the exchange platform. Next.js is a popular React framework that enables server-side rendering and offers various features to enhance the development process.
