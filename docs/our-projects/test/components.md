@@ -1,6 +1,6 @@
 # Components
 
-![Image](/img/docs/our-projects/dex-indexer/dex_component.png)
+![Image](/img/docs/our-projects/dex-indexer/components.png)
 
 ## Frontend
 
